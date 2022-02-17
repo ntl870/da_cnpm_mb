@@ -1,0 +1,41 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react", "unused-imports"],
+  "rules": {
+    // vanilla eslint
+    "no-console": "warn",
+    "no-trailing-spaces": "off",
+    "prettier/prettier": "off",
+    "no-dupe-keys": "error",
+    "no-duplicate-case": "error",
+    "no-unreachable": "warn",
+    "no-ex-assign": "error",
+    "no-alert": "warn",
+    "no-else-return": "warn",
+    "no-case-declarations": "warn",
+    "no-fallthrough": "warn",
+    "no-empty-pattern": "warn",
+    "no-delete-var": "warn",
+    "no-shadow": "off",
+    "block-scoped-var": "warn",
+    "vars-on-top": "warn",
+    "space-before-blocks": "warn",
+    "yoda": "error",
+    "keyword-spacing": "warn",
+    "unused-imports/no-unused-imports": "warn",
+    "quotes": ["warn", "single"],
+    "linebreak-style": ["error", "unix"],
+    "react-native/no-inline-styles": "off"
+  }
+}
